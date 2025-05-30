@@ -16,5 +16,5 @@ export default function DetectorPage() {
         Open Detector
       </a>
     </div>
-  )
+  );
 }
