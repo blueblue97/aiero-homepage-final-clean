@@ -1,89 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIero</title>
-  <link rel="icon" href="/favicon.ico" />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: white;
-      color: black;
-    }
-    nav {
-      background-color: #0f172a; /* dark navy */
-      color: white;
-      padding: 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav .logo {
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-    nav a {
-      color: white;
-      margin-left: 1rem;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    header {
-      padding: 4rem 2rem;
-      text-align: center;
-      background: #f1f5f9;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      color: #0f172a;
-    }
-    header p {
-      font-size: 1.1rem;
-      color: #334155;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 2rem;
-      background-color: #0ea5e9; /* blue */
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 0.5rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .btn:hover {
-      background-color: #0369a1;
-    }
-    footer {
-      background-color: #e2e8f0;
-      text-align: center;
-      padding: 1rem;
-      color: #475569;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
-<body>
-  <nav>
-    <div class="logo">AIERO</div>
-    <div>
-      <a href="/about">About</a>
-      <a href="/detector">Conflict Detector</a>
-      <a href="/contact">Contact</a>
-    </div>
-  </nav>
-  <header>
-    <h1>Aerospace-Grade AI Tooling</h1>
-    <p>Precision tools for tomorrow's aerospace and defense challenges.</p>
-    <a href="https://aiero-conflict-detector-ef4vi8au2h35fgfcaebcuq.streamlit.app/" class="btn">Launch Conflict Detector</a>
-  </header>
-  <footer>
-    &copy; 2025 AIero. All rights reserved.
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIERO - Aerospace-Grade AI Tooling</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 2rem;
+        font-family: Arial, sans-serif;
+        background-color: #f4f7fa;
+        color: #1a1a1a;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      nav a {
+        margin-left: 1.5rem;
+        text-decoration: none;
+        color: #0070f3;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+
+      .cta-button {
+        background-color: #0070f3;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+      .cta-button:hover {
+        background-color: #005bb5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div><strong>AIERO</strong></div>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/detector">Conflict Detector</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Aerospace-Grade AI Tooling</h2>
+      <p>Precision tools for tomorrow’s aerospace and defense challenges.</p>
+      <a class="cta-button" href="/detector">Launch Conflict Detector</a>
+    </main>
+  </body>
 </html>
